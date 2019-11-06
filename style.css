@@ -2,6 +2,7 @@ body {
   background-color: #43A047;
   color: whitesmoke;
   overflow: hidden;
+  user-select: none;
 }
 
 .content {
@@ -9,7 +10,6 @@ body {
   text-align: center;
   flex-direction: column;
   justify-content: center;
-
   height: 100vh;
 }
 
@@ -36,4 +36,11 @@ a {
 .links {
   height: 72px;
   margin: 15px;
+}
+
+.social-links img {
+  opacity: .67;
+}
+.social-links img:hover {
+  opacity: 1;
 }
